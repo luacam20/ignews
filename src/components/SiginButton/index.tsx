@@ -9,8 +9,6 @@ export function SigInButton() {
     //if o usuario esta logado 
     const [session] = useSession()
     
-    console.log(session)//informações do login
-    
     return session ? (
         <button 
             type="button" 
